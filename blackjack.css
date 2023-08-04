@@ -47,11 +47,18 @@ button:hover{
 }
 
 @media (min-width: 750px){
+    h1{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 2rem;
+    }
     .btn-div{
         flex-direction: row;
         gap: 2em;
     }
     button{
-        width: 40%;
+        width: 35%;
+        font-size: 1.5rem;
     }
 }
